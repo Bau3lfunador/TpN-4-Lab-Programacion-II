@@ -1,0 +1,25 @@
+TP 4 ACTIVIDAD A2
+¿Que es una prueba de escritorio?
+Una prueba de escritorio es una técnica usada para simular la ejecución de un algoritmo paso a paso, utilizando una tabla donde se van anotando los valores que toman las variables a medida que avanza el programa
+
+¿Como se realiza?
+Se eligen datos de entrada (en este caso, un vector de 8 elementos).
+Se completan columnas con los valores de las variables en cada iteración.
+Se sigue el flujo del programa como si fuera manualmente, línea por línea.
+y esto ayuda a detectar errores lógicos y entender el comportamiento del código antes de ejecutarlo.
+
+Actividad A3
+
+El programa trabaja con el vector:
+V = {-3, -1, 2, 5, 6, 7, 9, 17}
+Se calcula el PROMEDIO (PROM):
+PROM= -3+(-1)+2+5+6+7+9+17 todo sobre 8(cantidad de elementos). El resultado de esto te da 42/8 =5.25 que seria el promedio
+Se busca el primer valor del vector mayor que PROM (5.25) → es 6, que está en la posición I = 4
+Se toman los valores:
+V[I - 1] = 5
+V[I] = 6
+A = 5.25 - 5 = 0.25
+B = 6 - 5.25 = 0.75
+Como A < B, entonces se elige:
+E = V[I - 1] = 5
+POS = 4
